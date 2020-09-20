@@ -10,24 +10,40 @@ footer{
     background: #3f444d;
 }
 
-.login-center{
+.div-center{
     display: flex;
     align-items: center;
     justify-content: right;
     min-height: 100vh;    
 }
 
-#center-div{    
-    padding-bottom: 15vh;
+.lg-cont-center{
+    justify-content: center;
+    display: block;
+    padding-top: 8vh;
 }
 
-.#login_cont{
+.back_btn{    
+    text-decoration: none;
+    color: #82494c;
+
+}
+
+.back_btn:hover{
+    text-decoration: none;
+    color: #deafb2;
+}
+
+#center-login{    
+    padding-bottom: 25vh;
+}
+
+#login_cont{
     max-width: 40rem;
     margin-bottom: 25vh;
 }
 
-#lista_usuario-cont{
-    justify-content: center;
-    display: block;
-    padding-top: 15vh;
+#center-register{
+    padding-bottom: 25vh;
+    display: flex;
 }
